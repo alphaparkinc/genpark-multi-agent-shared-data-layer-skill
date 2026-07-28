@@ -1,0 +1,31 @@
+{
+  "name": "genpark-multi-agent-shared-data-layer-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Multi-agent shared data layer and vector index for cross-agent state retrieval.",
+  "author": "genpark",
+  "category": "operations",
+  "tags": [
+    "shared-data-layer",
+    "multi-agent-index",
+    "state-retrieval",
+    "ph-july29"
+  ],
+  "inputs": {
+    "namespace": {
+      "type": "string"
+    },
+    "record": {
+      "type": "object"
+    }
+  },
+  "outputs": {
+    "record_id": {
+      "type": "string"
+    },
+    "sync_status": {
+      "type": "string"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
